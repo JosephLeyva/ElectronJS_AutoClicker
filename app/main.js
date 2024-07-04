@@ -23,4 +23,6 @@ app.on('ready', () => {
     mainWindow.on('closed', () => {
         app.quit();
     });
+
+    mainWindow.removeMenu();
 });
